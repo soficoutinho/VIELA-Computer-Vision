@@ -1,0 +1,43 @@
+
+# ==========================================
+# VIELA - Caminhos que conectam
+# ==========================================
+
+# Ambiente virtual
+.venv/
+venv/
+
+# Arquivos temporarios do Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Configuracoes locais
+.env
+.vscode/
+.DS_Store
+
+# Dataset original do Roboflow
+dataset/train/
+dataset/valid/
+dataset/test/
+dataset/images/
+dataset/labels/
+dataset/*.cache
+dataset/data_local.yaml
+
+# Videos originais e processados
+videos/*.mp4
+results/video/*.mp4
+
+# Pesos de modelos
+*.pt
+*.pth
+
+# Permitir o modelo treinado da VIELA
+!results/training/viela_yolo/weights/best.pt
+
+# Arquivos temporarios de treinamento
+runs/
+
+!videos/entrada.mp4

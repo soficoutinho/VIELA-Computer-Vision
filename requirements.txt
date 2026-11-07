@@ -1,0 +1,8 @@
+
+ultralytics==8.4.204
+opencv-python
+PyYAML
+torch
+torchvision
+matplotlib
+pandas
